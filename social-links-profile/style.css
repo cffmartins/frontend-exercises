@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    margin: 100px auto;
+    background: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-top {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-top img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;;
+}
+
+.card-middle {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.local {
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    margin: 10px;
+    padding: 0;
+
+}
+
+.descrip {
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 300;
+}   
+
+
+.card-bottom {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border: none;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.attribution {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
